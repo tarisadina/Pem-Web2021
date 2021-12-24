@@ -1,0 +1,60 @@
+body{
+    background: #FFE4C4;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+/*
+Nilai 20 adalah nilai tinggi rendahnya bayangan.
+Nilai 10 adalah nilai untuk mengatur rata kiri kanan bayangan.
+Nilai 5 adalah nilai mengatur ketebalan bayangan.
+Dan yang terakhir adalah mengatur warna bayangan.
+*/
+.tulisan1{
+    text-shadow: 20px 10px 5px #232323;
+}
+/*
+Nilai 0 pertama adalah nilai tinggi rendahnya bayangan.
+Nilai 0 kedua adalah nilai untuk mengatur rata kiri kanan bayangan.
+Nilai 20 adalah nilai mengatur ketebalan bayangan.
+Dan yang terakhir adalah mengatur warna bayangan.
+*/
+.tulisan2{
+    text-shadow: 0px 0px 20px #232323;
+}
+/*
+Nilai 20 yang pertama adalah nilai tinggi rendahnya bayangan.
+Nilai 20 kedua adalah nilai untuk rata kanan kiri bayangan.
+Nilai 40 adalah nilai radius bayangan.
+Nilai 10 adalah nilai ketebalan bayangan.
+dan yang terakhir adalah menentukan warna bayangan.
+*/
+.kotak1{
+    background: white;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    box-shadow: 20px 20px 40px 10px red;
+}
+/*
+Nilai 0 yang pertama adalah nilai tinggi rendahnya bayangan.
+Nilai 0 kedua adalah nilai untuk rata kanan kiri bayangan.
+Nilai 10 pertama adalah nilai radius bayangan.
+Nilai 10 kedua adalah nilai ketebalan bayangan.
+dan yang terakhir adalah menentukan warna bayangan.
+*/
+.kotak2{
+    background: white;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: right;
+    box-shadow: 0px 0px 10px 10px #333333;
+} 
