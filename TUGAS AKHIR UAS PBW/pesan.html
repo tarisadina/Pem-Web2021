@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SPA Example">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Handri Hermawan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/src/img/icon.ico" type="image/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/app.css">
+    <title>SPORTTY WEB</title>
+</head>
+
+<body>
+    <header class="as-header" id="header">
+        <nav class="as-nav as-container">
+            <a href="#" class="as-nav__logo">SPORTTY</a>
+
+            <div class="as-nav__menu" id="nav-menu">
+                <ul class="as-nav__list">
+                    <li class="as-nav__item"><a href="index.html" class="as-nav__link active-link">HOME</a></li>
+                    <li class="as-nav__item"><a href="#sports venues" class="as-nav__link">SPROTS VENUES</a></li>
+                    <li class="as-nav__item"><a href="#partner" class="as-nav__link">PARTNER PEMBAYARAN</a></li>
+                    <li class="as-nav__item"><a href="login.html" class="tbl-biru">SIGN UP</a></li>
+
+                </ul>
+            </div>
+
+            <div class="as-nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+<section id="pesan" class="as-section">
+
+    <div class="container-contact">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div class="judul-contact">
+                <h2>BOOKING SEKARANG!!</h2>
+              </div>
+              <form method="post" data-form-title="CONTACT US">
+                <input type="hidden" data-form-email="true">
+                <div class="pesan">
+                  <div class="form-group">
+                  <input type="text" class="form-control" name="name" required="" placeholder="Nama Pelanggan" data-form-field="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" required="" placeholder="Alamat" data-form-field="Email">
+                </div>
+                <div class="form-group">
+                  <input type="tel" class="form-control" name="phone" placeholder="Handphone/phone" data-form-field="Phone">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" placeholder="Pesanan Anda" rows="7" data-form-field="Message"></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit" class="btn btn-lg btn-info">submit</button>
+                </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="as-section as-footer">
+      <div class="as-container">
+          <div class="as-footer__container">
+              <div class="as-footer__content">
+                  <a href="" class="as-footer__social" aria-label="socmed"><i class="bx bxl-facebook"></i></a>
+                  <a href="http://instragram.com/tarisaadl" class="as-footer__social" aria-label="socmed"><i class="bx bxl-instagram"></i></a>
+                  <a href="https://youtu.be/4-CnsgBbajM" class="as-footer__social" aria-label="socmed"><i class="bx bxl-youtube"></i></a>
+              </div>
+
+              <div class="as-footer__content">
+                  <a href="#" class="as-footer__link">Hubungi Kami</a>
+              </div>
+
+              <div class="as-footer__content">
+                  <a href="#" class="as-footer__link">Syarat & Ketentuan</a>
+              </div>
+
+              <div class="as-footer__content">
+                  <a href="#" class="as-footer__link">Kebijakan Privasi</a>
+              </div>
+          </div>
+          <p class="as-footer__copy">&#169; 2021 - Tarisa Dina Lutfiana</p>
+      </div>
+  </footer>
+  </section>
+  <script src="src/app.js"></script>
+</body>
+</html>
